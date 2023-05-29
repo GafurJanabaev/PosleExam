@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Heebo:wght@200;300;400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+.LogBody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 105, 105);
+
+    .Login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        gap: 10px;
+        width: 33.3%;
+        height: 550px;
+        background-color: white;
+        border-radius: 10px;
+        padding-top:50px;
+      
+        h1 {
+          font-size: 38px;
+          padding-bottom: 20px;
+          color: rgb(82, 82, 82);
+          font-family: sans-serif;
+        }
+      
+        &__box {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .inpPas{
+            width: 300px;
+            Input{
+                padding: 7px 0;
+            }
+          }
+      
+          label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            font-style: initial;
+            color: gray;
+          }
+      
+          input {
+            padding: 10px 5px;
+            width: 300px;
+            font-size: 18px;
+            border-radius: 5px;
+          }
+          
+        }
+      
+        .Log-btn {
+          margin-top: 10px;
+          button {
+            padding: 20px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: rgb(9, 97, 53);
+            color: rgb(240, 240, 240);
+            border-radius: 10px;
+            &:hover{
+              color: antiquewhite;
+            }
+          }
+        }
+      
+        .Link{
+          margin-top: 10px;
+          font-family: 'Montserrat', sans-serif;
+        }
+      }
+      
+}

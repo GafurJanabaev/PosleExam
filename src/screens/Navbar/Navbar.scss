@@ -1,0 +1,24 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: antiquewhite;
+  
+  &__logo {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  &__ul {
+    ul {
+      display: flex;
+      gap: 30px;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
