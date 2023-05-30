@@ -1,9 +1,16 @@
+import { Button, Input } from 'antd'
 import React from 'react'
+import './Erten.scss'
 
-const Ertengi = () => {
+const Kunlik = () => {
   return (
-    <div>Ertengi</div>
+    <div className='Kunlik'>
+      <div className='Kunlik__input'>
+         <Input />
+         <Button>Submit</Button>
+      </div>
+    </div>
   )
 }
 
-export default Ertengi
+export default Kunlik

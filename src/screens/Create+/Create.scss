@@ -1,0 +1,60 @@
+.Careatew {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inputs {
+    background-color:#00C4FF;
+    width: 40%;
+    height: 70%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size:30px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    
+    label {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+       h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        font-size: 20px;
+        font-weight: 600;
+       }
+      input {
+        width: 300px;
+        height: 50px;
+        padding: 0 10px;
+        border: 1px solid gray;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+    }
+
+    button {
+      padding: 10px 30px;
+      background-color: green;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: 600;
+      color: white;
+
+      &:active{
+        transform: scale(0.9);
+      }
+    }
+  }
+}

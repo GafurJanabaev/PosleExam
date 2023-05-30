@@ -1,0 +1,18 @@
+.Erten{
+    &__input{
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        gap: 5px;
+        
+        input{
+            width: 350px;
+            height: 45px;
+        }
+
+        button{
+            height: 45px;
+            font-size: 18px;   
+        }
+    }
+}
